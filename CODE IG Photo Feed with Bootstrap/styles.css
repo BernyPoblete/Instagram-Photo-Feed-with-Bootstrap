@@ -1,39 +1,42 @@
+.body{
+    background: rgb(199, 197, 197);
+}
+
 .navbar-brand{
-   
+    font-family: 'Oleo Script', cursive;
     font-size: 25px;
+    color: #6c757d;
 }
-.btn-light{
-    background-color: #ffffff;
-    color: #000000;
+.page-link{
+    color: #6c757d;
 }
-.navbar{
-    border-bottom: 1px solid lightgray;
+.nav-link{
+    color: #6c757d;
 }
+
 .margin{
-    margin-top: 70px;
+    margin-top: 80px;
 }
-.seg-ter{
-    margin-top: 5px;
-}
+
 .card{
-    margin: 40px auto;
+    margin: 30px auto;
     width: 600px;
 }
 .card-header{
     padding: .75rem 15px;
+    display: flex;
+    justify-content: space-between;
 }
-.titulo{
-    display: inline-block;
-}
-.btn-link{
+
+.card-date{
+    position: relative;
     float: right;
-    color: gray;
-    padding-right: 0px;
+    color: #6c757d;
 }
 .card-body{
     padding: 15px;
 }
-.comentario{
+.comment{
     color: #CDCCCC;
     display: inline-block;
     width: 88%;
